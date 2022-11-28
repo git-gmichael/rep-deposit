@@ -43,13 +43,13 @@ Qt Version Check:
 
 ```
 qmake --version 
-#Output: command 'qmake' not found,but can be installed with:
+# Output: command 'qmake' not found,but can be installed with:
 sudo apt install qtchooser
-#after qtchooser installation, issue again,
-qmake --version #Output: could not exec '/usr/lib/qt5/bin/qmake': No such file or directory
-whereis qmake #Output: qmake: /usr/bin/qmake
+# after qtchooser installation, issue again,
+qmake --version # Output: could not exec '/usr/lib/qt5/bin/qmake': No such file or directory
+whereis qmake # Output: qmake: /usr/bin/qmake
 whereis qtchooser
-#Output: qtchooser: /usr/bin/qtchooser /usr/lib/x86_64-linux-gnu/qtchooser /usr/share/qtchooser /usr/share/man/man1/qtchooser.1.gz
+# Output: qtchooser: /usr/bin/qtchooser /usr/lib/x86_64-linux-gnu/qtchooser /usr/share/qtchooser /usr/share/man/man1/qtchooser.1.gz
 
 ```
 
