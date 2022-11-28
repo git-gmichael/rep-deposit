@@ -14,7 +14,12 @@ The availability check
 with CLI:
 
 ```
-qmake --version #Output: command 'qmake' not found, but can be installed with: sudo apt install qtchooser.
+qmake --version 
+#Output: command 'qmake' not found,but can be installed with:
+sudo apt install qtchooser
+#after qmake installation, issue qmake --version again #Output: could not exec '/usr/lib/qt5/bin/qmake': No such file or directory
+whereis qmake #Output: qmake: /usr/bin/qmake
+cd /bin; ls -a; 
 ```
 
 with Script:&#x20;
