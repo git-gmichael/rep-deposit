@@ -25,7 +25,7 @@ fi
 ...do your thing...
 ```
 
-with Script-dpkg :&#x20;
+with Script-dpkg:&#x20;
 
 ```
 if ! dpkg-query -s qtchooser
