@@ -1,3 +1,3 @@
 # Table of contents
 
-* [🏷 project-notes](README.md)
+* [🏷 PROJECT-NOTES](README.md)
